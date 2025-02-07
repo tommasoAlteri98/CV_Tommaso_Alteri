@@ -1,0 +1,16 @@
+<template>
+    <lightning-card>
+        <div>
+            <p>
+                Che numero sto pensando da 1 a 10?
+            </p>
+        </div>
+
+        <lightning-input label="Che numero scegli?" value={numeroUtente} onchange={aggiornoNumero} type="number" min="1" max="10"> </lightning-input>
+        <lightning-button label="Prova" onclick={controllaNumero}></lightning-button>
+        
+        <template if:true={mostraMessaggio}>
+            <p class={classeMessaggio}>{messaggio}</p>
+        </template>
+    </lightning-card>  
+</template>

@@ -1,0 +1,29 @@
+<template>
+    <div class="quiz">
+        <form onsubmit={buttonSubmitt}>
+            <div class="question">
+                <label> Quale dei seguenti non è un loop di modelli?</label><br/>
+                <lightning-radio-group options={opzioniDomanda1} value={rispostaDomanda} onchange={cambiaD1} required></lightning-radio-group>
+            </div>
+
+            <div class="question">
+                <label> Quale dei seguenti file non è presente in un LWC?</label><br/>
+                <lightning-radio-group options={opzioniDomanda2} value={rispostaDomanda2} onchange={cambiaD2} required></lightning-radio-group>
+            </div>
+
+            <div class="question">
+                <label> Quale dei seguenti non è una direttiva?</label><br/>
+                <lightning-radio-group options={opzioniDomanda3} value={rispostaDomanda3} onchange={cambiaD3} required></lightning-radio-group>
+            </div>
+
+            <lightning-button type="reset" label="Reset" onclick={resetRisposte}></lightning-button>
+            
+            <lightning-button type="submit" label="Submit" disabled={buttonDisabilitato}></lightning-button>
+        </form>
+
+        <template if:true={messaggioRis}>
+            <div class={classRis}>{messaggioRis}</div>
+        </template>
+
+    </div>
+</template>
