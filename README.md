@@ -1,7 +1,7 @@
 
 # Ciao Mondo, sono Tommaso Alteri! 👨‍💻
 
-Sono un **Programmatore Junior** con una grande passione per la programmazione e la tecnologia! 💻✨ Mi piace pensare che, quando scrivo codice, ogni linea rappresenti un passo verso qualcosa di nuovo e utile. Per me, ogni progetto è un'opportunità di imparare e di migliorare. Sono una persona meticolosa, precisa e super attenta ai dettagli 🔍, ma anche un po' "nerd" (e lo dico con orgoglio! 😄).
+Sono un **Programmatore Junior** con una grande passione per la programmazione e anche per la tecnologia! 💻✨ Mi piace pensare che, quando scrivo codice, ogni linea rappresenti un passo verso qualcosa di nuovo e utile. Per me, ogni progetto è un'opportunità di imparare e di migliorare. Sono una persona meticolosa, precisa e super attenta ai dettagli 🔍, ma anche un po' "nerd" (e lo dico con orgoglio! 😄).
 La mia forza? Gestisco al meglio il **tempo** e le **priorità**, permettendomi di lavorare su più task contemporaneamente, senza mai perdere di vista il risultato finale 🚀. 
 
 ---
